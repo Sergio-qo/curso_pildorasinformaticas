@@ -34,3 +34,4 @@ build/
 
 ## Owasp report plugin
 owasp-report/
+/bin/

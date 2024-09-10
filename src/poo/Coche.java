@@ -19,8 +19,8 @@ public class Coche {
 		peso_plataforma = 500;
 	}
 	
-	public String dime_largo() {
-		return "El largo de tu coche es " + largo;
+	public String dime_datos_generales() {
+		return "La plataforma del vehículo tiene " + ruedas + " ruedas. " + "Mide " +largo/1000 + "metros con un ancho de " + ancho + "cm y un peso de plataforma de " + peso_plataforma + " kg";
 	}
 	
 	public void establece_color(String color_coche) {
